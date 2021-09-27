@@ -1,0 +1,25 @@
+.txt-lt{
+    color: #fff;
+}
+.txt-dr {
+    color: #262626;
+}
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 2px;
+}
+.bg-lt {
+    background-color: #fff;
+}
+.ft-nu {
+    font-family: 'Nunito', sans-serif;
+}
+.ft-ro {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@media only screen and (min-width: 600px) {
+    h1, h2, h3, h4, h5, h6 {
+        letter-spacing: 4px;
+    }
+}

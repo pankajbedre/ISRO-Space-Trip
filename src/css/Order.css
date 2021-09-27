@@ -1,0 +1,20 @@
+.order-inner {
+    background-image:  url(../assets/images/orderBack.png);
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 10em !important;
+}
+.order-card {
+    border-radius: 15px;
+    background-image: linear-gradient(
+      to bottom right,
+      rgba(88, 88, 88, 0.4), rgba(0, 0, 0, 0.774)
+    );
+    backdrop-filter: blur(20px) saturate(110%);
+    box-shadow: 4px 4px 10px rgba(24, 24, 24, 0.466);
+}
+.order-planet {
+    width: 9em;
+    top: -4em;
+    filter: drop-shadow(7px 7px 20px rgba(82, 75, 63, 0.87));
+}

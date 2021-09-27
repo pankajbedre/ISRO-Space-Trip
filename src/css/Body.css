@@ -1,0 +1,92 @@
+.body-outer {
+    padding-top: 7em;
+}
+.detail-box {
+  margin-top: 3.5em !important;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.11),
+    rgba(22, 22, 22, 0.411)
+  );
+  backdrop-filter: blur(20px) saturate(110%);
+  box-shadow: 4px 4px 10px rgba(24, 24, 24, 0.466);
+  border: 1px solid rgba(255, 255, 255, 0.356);
+}
+.body-inner {
+  padding: 1.5em;
+}
+.planet-img {
+  width: 13.5em;
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.582));
+}
+.pl-sm-img {
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  padding: 0 1em;
+}
+.pl-lg-img {
+  display: none;
+}
+
+.planet-img {
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% { transform: rotate(0deg);
+    left: 0px;
+    top: 0px;
+  }
+  50% { transform: rotate(-30deg);
+    left: -30px;
+    top: 0px;
+  }
+  100% { transform: rotate(0deg);
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+  .body-inner {
+    padding: 5em 8.5em;
+  }
+  .planet-img {
+    width: 23em;
+  }
+  .pl-sm-img {
+    display: none;
+  }
+  .pl-lg-img {
+    display: inline-block;
+    padding: 2em 0;
+  }
+  .detail-box {
+    margin-top: 0 !important;
+  }
+
+  @keyframes example {
+    0% {
+        transform: rotate(0deg);
+      left: 0px;
+      top: 0px;
+    }
+    50% {
+        transform: rotate(-60deg);
+      left: -200px;
+      top: 0px;
+    }
+    100% {
+        transform: rotate(0deg);
+      left: 0px;
+      top: 0px;
+    }
+  }
+}
