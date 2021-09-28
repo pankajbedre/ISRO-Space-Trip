@@ -18,3 +18,15 @@
     top: -4em;
     filter: drop-shadow(7px 7px 20px rgba(82, 75, 63, 0.87));
 }
+
+/* order info */ 
+.form-control {
+    background-color: transparent;
+    border: 3px solid rgb(212, 188, 255);
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+.form-control::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }

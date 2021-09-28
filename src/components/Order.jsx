@@ -43,7 +43,7 @@ export default function Order() {
                     </div>
                     <div className="col-lg-6 col-12 d-flex flex-column m-0 justify-content-between p-0 px-3 mb-3">
                         <p>Flight Date : <b>21st Jan 2022</b></p>
-                        <Link to="/">
+                        <Link to="/orderinfo">
                         <button className="w-100 btn btn-light rounded-pill btn-block">Book Flight</button>
                         </Link>
                     </div>
